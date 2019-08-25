@@ -20,10 +20,11 @@ end
 return answer
 end
 
+map_to_double(source_array)
   answer = []
   i = 0 
   while i < source_array.length
-  answer.push(source_array[i])
+  answer.push(source_array[i]*2)
   i += 1 
 end
 return answer
