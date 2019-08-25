@@ -19,3 +19,12 @@ def map_to_no_change(source_array)
 end
 return answer
 end
+
+  answer = []
+  i = 0 
+  while i < source_array.length
+  answer.push(source_array[i])
+  i += 1 
+end
+return answer
+end
