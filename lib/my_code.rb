@@ -39,7 +39,7 @@ end
 return answer
 end
 
-def reduce_to_total(source_array, starting_point=0 
+def reduce_to_total(source_array, starting_point=0)
   answer = 0 
   i = starting_point
   when i < source_array.length
