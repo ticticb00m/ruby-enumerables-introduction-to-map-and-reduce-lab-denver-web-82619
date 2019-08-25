@@ -10,3 +10,8 @@ def map_to_negativize(source_array)
   return answer
 end
 
+def map_to_no_change(source_array)
+  answer = []
+  answer.push(source_array)
+  return
+end
