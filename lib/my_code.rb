@@ -39,9 +39,9 @@ end
 return answer
 end
 
-def reduce_to_total(source_array, starting_point=0)
+def reduce_to_total(source_array, starting_point)
   answer = 0 
-  i = starting_point
+  i = 0 
   when i < source_array.length
    answer + (source_array[i]) = answer
    i += 1
