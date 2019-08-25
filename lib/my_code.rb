@@ -40,8 +40,8 @@ return answer
 end
 
 def reduce_to_total(source_array, starting_point=0)
-  answer = 0 
-  i = starting_point
+  answer = starting_point 
+  i = 0
   while i < source_array.length
    answer = answer + source_array[i]
    i += 1
