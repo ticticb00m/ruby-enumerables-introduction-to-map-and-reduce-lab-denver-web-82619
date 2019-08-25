@@ -29,4 +29,11 @@ end
 return answer
 end
 
-
+def map_to_square(source_array)
+  i = 0 
+  while i < source_array.length
+  answer.push(source_array[i]**2)
+  i += 1 
+end
+return answer
+end
