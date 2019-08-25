@@ -53,7 +53,7 @@ def reduce_to_all_true(source_array)
    if source_array == true
      return "true"
    else 
-     return source_array
+     return false
    end
  end
   
