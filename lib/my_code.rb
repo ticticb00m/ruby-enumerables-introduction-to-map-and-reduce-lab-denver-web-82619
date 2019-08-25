@@ -30,6 +30,7 @@ return answer
 end
 
 def map_to_square(source_array)
+  answer = []
   i = 0 
   while i < source_array.length
   answer.push(source_array[i]**2)
