@@ -40,9 +40,10 @@ return answer
 end
 
 def reduce_to_total(source_array, starting_point=0)
-  answer = 0 
+  answer = [] 
   i = starting_point
-  
+  when i < source_array.length
+    answer.push(source_array[i])
   
   
   
