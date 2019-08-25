@@ -39,11 +39,15 @@ end
 return answer
 end
 
-def reduce_to_total(source_array, starting_point=0)
-  answer = [] 
+def reduce_to_total(source_array, starting_point=0 
+  answer = 0 
   i = starting_point
   when i < source_array.length
-    answer.push(source_array[i])
-  
-  
+   answer + (source_array[i]) = answer
+   i += 1
+ end
+ return answer
+ end
+   
+   
   
